@@ -3,8 +3,8 @@ import pickle
 import os
 
 # Load the model and vectorizer
-model = pickle.load(open(os.path.join('models', 'model.pkl'), 'rb'))
-vectorizer = pickle.load(open(os.path.join('models', 'tfidf_vectorizer.pkl'), 'rb'))
+model = pickle.load(open(os.path.join('model.pkl'), 'rb'))
+vectorizer = pickle.load(open(os.path.join('tfidf_vectorizer.pkl'), 'rb'))
 
 st.title("Sentiment Analysis")
 
